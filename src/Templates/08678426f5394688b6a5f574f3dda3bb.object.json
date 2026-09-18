@@ -1,0 +1,67 @@
+{
+  "objectType": "Door_W",
+  "positionX": 0,
+  "positionY": 200,
+  "includeInPreview": true,
+  "linkedBaseObjectId": "197cd3f2-abcd-4aa0-860e-e3d1b596afe9",
+  "linkActionsToBaseObject": true,
+  "productionName": "Door opens West from Hotel Room to Hallway1.",
+  "imageRotationDegrees": 270,
+  "renderZOrder": 1001,
+  "quantity": 1,
+  "quantifiablePlacementDistributionMode": "IndividualInstances",
+  "containedObjects": [],
+  "id": "08678426-f539-4688-b6a5-f574f3dda3bb",
+  "name": "Door_W",
+  "nameInGame": "West Door",
+  "hideEmptyConfiguration": false,
+  "scopeKind": "Templates",
+  "gameProperties": [
+    {
+      "id": "71a93392-9e2a-469b-b5d2-95b964a54128",
+      "name": "isOpen",
+      "defaultValue": "false",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton",
+      "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb"
+    },
+    {
+      "id": "e117022a-d771-496e-9750-ed53807e2085",
+      "name": "isLocked",
+      "defaultValue": "false",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "43276fd4-041f-424f-b2d8-892192180b33",
+      "name": "isQuantifiable",
+      "defaultValue": "true",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "e809f589-f2ec-4b0d-aa58-12c851e27c8c",
+      "name": "quantity",
+      "defaultValue": "1",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "9ef24866-2670-45e6-b7a9-740a40a5036a",
+      "name": "lookingFromHere",
+      "defaultValue": "the west",
+      "valueRestriction": "Unrestricted",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "1950d06d-89af-4771-bc7a-febbe0433f6b",
+      "name": "destinationFromHere",
+      "defaultValue": "Hallway1",
+      "valueRestriction": "Unrestricted",
+      "lifetime": "Singleton"
+    }
+  ],
+  "eventSubscriptions": [],
+  "timerDefinitions": [],
+  "soundEffectLibraryEntries": []
+}

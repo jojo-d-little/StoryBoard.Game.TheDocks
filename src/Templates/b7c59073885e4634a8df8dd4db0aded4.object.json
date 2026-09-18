@@ -1,0 +1,38 @@
+{
+  "objectType": "FramedPictureLarge",
+  "positionX": 120,
+  "positionY": 760,
+  "includeInPreview": true,
+  "linkedBaseObjectId": "0dc9f3c0-8491-4f0e-b668-aaef79f1460f",
+  "linkActionsToBaseObject": true,
+  "productionName": "",
+  "imageRotationDegrees": 180,
+  "renderZOrder": 1006,
+  "quantity": 1,
+  "quantifiablePlacementDistributionMode": "IndividualInstances",
+  "containedObjects": [],
+  "id": "b7c59073-885e-4634-a8df-8dd4db0aded4",
+  "name": "FramedPictureLarge",
+  "nameInGame": "FramedPictureLarge",
+  "hideEmptyConfiguration": false,
+  "scopeKind": "Templates",
+  "gameProperties": [
+    {
+      "id": "33077a17-c447-4ba7-b1ac-cff98eab30b8",
+      "name": "isQuantifiable",
+      "defaultValue": "true",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "1b7615a4-11e2-4fff-bea2-bc67e91b27cf",
+      "name": "quantity",
+      "defaultValue": "1",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    }
+  ],
+  "eventSubscriptions": [],
+  "timerDefinitions": [],
+  "soundEffectLibraryEntries": []
+}

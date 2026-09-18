@@ -1,0 +1,38 @@
+{
+  "objectType": "Sconce1",
+  "positionX": 360,
+  "positionY": 600,
+  "includeInPreview": true,
+  "linkedBaseObjectId": "e8219cc3-a4ab-4bc8-ab4f-8768522f40c9",
+  "linkActionsToBaseObject": true,
+  "productionName": "",
+  "imageRotationDegrees": 90,
+  "renderZOrder": 1003,
+  "quantity": 1,
+  "quantifiablePlacementDistributionMode": "IndividualInstances",
+  "containedObjects": [],
+  "id": "515bb778-5522-464b-92e8-be45d688b0e0",
+  "name": "Sconce1",
+  "nameInGame": "Sconce1",
+  "hideEmptyConfiguration": false,
+  "scopeKind": "Templates",
+  "gameProperties": [
+    {
+      "id": "56ade22a-79ac-47a3-a42f-73a73c50c951",
+      "name": "isQuantifiable",
+      "defaultValue": "true",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "14c587c5-8460-4c34-a4f3-be9ca83a51a8",
+      "name": "quantity",
+      "defaultValue": "1",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    }
+  ],
+  "eventSubscriptions": [],
+  "timerDefinitions": [],
+  "soundEffectLibraryEntries": []
+}

@@ -1,0 +1,197 @@
+{
+  "adjacencyMode": "EightDirectional",
+  "startingRoomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+  "roomIds": [
+    "0dd5753d-953c-4a11-9412-d3e110f10af3",
+    "34e54205-9b7b-4cbd-8773-fd5a13f85d0a",
+    "88b18fca-3ad3-4ab8-89b7-fdde92db40c9",
+    "b4148986-823d-4d9a-832d-f31f60165e79",
+    "bf9abdbf-f159-4c38-a903-d5b026a72084"
+  ],
+  "roomPlacements": [
+    {
+      "roomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "x": 384,
+      "y": 584,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "34e54205-9b7b-4cbd-8773-fd5a13f85d0a",
+      "x": 564,
+      "y": 724,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "88b18fca-3ad3-4ab8-89b7-fdde92db40c9",
+      "x": 384,
+      "y": 304,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "x": 384,
+      "y": 444,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "x": 564,
+      "y": 584,
+      "floorElevation": 2
+    }
+  ],
+  "links": [
+    {
+      "fromRoomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "toRoomId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "direction": "North",
+      "gameProperties": [
+        {
+          "id": "64b13d78-dbe5-4fd5-bc91-13c275fa03f3",
+          "name": "isPassable",
+          "defaultValue": "true",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton"
+        }
+      ],
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Together"
+    },
+    {
+      "fromRoomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "toRoomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "direction": "East",
+      "presentationEffectKey": "room.transition.fade.blackoutswap.medium",
+      "gameProperties": [
+        {
+          "id": "8e9820d3-5ae6-44cf-9cc4-3baf74c6c01f",
+          "name": "isPassable",
+          "defaultValue": "false",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton",
+          "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb"
+        }
+      ],
+      "openableObjectId": "52290c69-e58f-49a8-b42f-b12b17372843",
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Together",
+      "pairedOpenableObjectId": "08678426-f539-4688-b6a5-f574f3dda3bb"
+    },
+    {
+      "fromRoomId": "34e54205-9b7b-4cbd-8773-fd5a13f85d0a",
+      "toRoomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "direction": "North",
+      "presentationEffectKey": "room.transition.fade.blackoutswap.medium",
+      "gameProperties": [
+        {
+          "id": "b4144d40-40af-497b-a286-a821858727ae",
+          "name": "isPassable",
+          "defaultValue": "false",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton",
+          "sharedVariableId": "f5bbb961-f30f-40a5-98af-5543a5172863"
+        }
+      ],
+      "openableObjectId": "77a40081-3da3-4b85-8458-c684ff124b64",
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Together",
+      "pairedOpenableObjectId": "fcb45339-d252-4663-947d-0dcbf3bee1ea"
+    },
+    {
+      "fromRoomId": "88b18fca-3ad3-4ab8-89b7-fdde92db40c9",
+      "toRoomId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "direction": "South",
+      "gameProperties": [
+        {
+          "id": "d3eb4ad7-c9c1-43f5-90cf-d698cb00c6f7",
+          "name": "isPassable",
+          "defaultValue": "true",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton"
+        }
+      ],
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Independent"
+    },
+    {
+      "fromRoomId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "toRoomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "direction": "South",
+      "gameProperties": [
+        {
+          "id": "1c2675eb-27a9-4860-8d73-42712f7798c5",
+          "name": "isPassable",
+          "defaultValue": "true",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton"
+        }
+      ],
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Together"
+    },
+    {
+      "fromRoomId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "toRoomId": "88b18fca-3ad3-4ab8-89b7-fdde92db40c9",
+      "direction": "North",
+      "gameProperties": [
+        {
+          "id": "eff51cac-5cba-44f1-90cd-17a0c955bfb3",
+          "name": "isPassable",
+          "defaultValue": "true",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton"
+        }
+      ],
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Independent"
+    },
+    {
+      "fromRoomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "toRoomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "direction": "West",
+      "presentationEffectKey": "room.transition.fade.blackoutswap.medium",
+      "gameProperties": [
+        {
+          "id": "ac2d87d3-7e4d-448e-ac68-f46cf4e20cca",
+          "name": "isPassable",
+          "defaultValue": "false",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton",
+          "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb"
+        }
+      ],
+      "openableObjectId": "08678426-f539-4688-b6a5-f574f3dda3bb",
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Together",
+      "pairedOpenableObjectId": "52290c69-e58f-49a8-b42f-b12b17372843"
+    },
+    {
+      "fromRoomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "toRoomId": "34e54205-9b7b-4cbd-8773-fd5a13f85d0a",
+      "direction": "South",
+      "presentationEffectKey": "room.transition.fade.blackoutswap.medium",
+      "gameProperties": [
+        {
+          "id": "9289ce47-6fb8-4692-95d5-cc95857e45c9",
+          "name": "isPassable",
+          "defaultValue": "false",
+          "valueRestriction": "TrueFalse",
+          "lifetime": "Singleton",
+          "sharedVariableId": "f5bbb961-f30f-40a5-98af-5543a5172863"
+        }
+      ],
+      "openableObjectId": "fcb45339-d252-4663-947d-0dcbf3bee1ea",
+      "openStatePolicy": "IgnoreOpenableState",
+      "openStateBindingMode": "Together",
+      "pairedOpenableObjectId": "77a40081-3da3-4b85-8458-c684ff124b64"
+    }
+  ],
+  "Id": "9d5029a9-ecd9-49d4-8c8d-0815a13abaf6",
+  "name": "Birmingham",
+  "nameInGame": "Birmingham",
+  "scopeKind": "Area",
+  "gameProperties": [],
+  "additionalVerbs": [],
+  "additionalDirectionals": [],
+  "availableGameActions": []
+}

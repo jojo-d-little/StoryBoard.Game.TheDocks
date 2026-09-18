@@ -1,0 +1,18 @@
+Validation report generated: 2026-09-18 08:47:55
+Project: TheDocks
+ExecutionKind: WholeProject
+RootScopePath: Global
+IncludeDescendants: True
+CandidateNodeCount: 59
+ExecutedRules: 59
+SkippedRules: 0
+StoppedEarly: False
+RemainingIssueCountAtStop: 0
+StopRuleId: (none)
+RemainingRuleCountAtStop: 0
+
+SkippedRuleId	SkipReason	SkipDetail
+
+RuleId	Severity	Path	Description	Hint
+TRV-005	Warning	Global / Earth / England / Birmingham / HallwayMiddle / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.
+TRV-005	Warning	Global / Earth / England / Birmingham / HallwayNorthEnd / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.

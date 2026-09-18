@@ -1,0 +1,35 @@
+{
+  "name": "TheDocks",
+  "formatVersion": "1.0",
+  "sourceProjectName": "TheDocks",
+  "gameDisplayName": "The Docks",
+  "gameSummary": "A mystery of who done it",
+  "gamePreviewImages": [],
+  "updatedUtc": "2026-09-09T11:31:46.6253531Z",
+  "hideEmptyConfiguration": false,
+  "autoSaveSeconds": 60,
+  "roomImageCanvasWidth": 800,
+  "roomImageCanvasHeight": 600,
+  "roomDesignerGridCellSize": 40,
+  "stackScaleStepDefault": 0.08,
+  "minStackScaleDefault": 0.5,
+  "simulatorReplayFilePath": "",
+  "defaultTraversalMode": "EightDirectional",
+  "projectIgnoredValidationRuleIds": [],
+  "globalIgnoredValidationRuleIds": [],
+  "objectTemplatesIgnoredValidationRuleIds": [
+    "OBJ-005",
+    "TRV-005"
+  ],
+  "roomTemplatesIgnoredValidationRuleIds": [
+    "OBJ-005",
+    "TRV-005"
+  ],
+  "baseObjectsIgnoredValidationRuleIds": [
+    "OBJ-005",
+    "TRV-005"
+  ],
+  "startingPlanetName": "Earth",
+  "playerCharacterObjectName": "Player",
+  "playerIgnoredValidationRuleIds": []
+}

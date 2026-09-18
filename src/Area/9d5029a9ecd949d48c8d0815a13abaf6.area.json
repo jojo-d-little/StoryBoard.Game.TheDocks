@@ -1,0 +1,289 @@
+{
+  "parentCountryId": "b4e73c02-bdac-414e-bfc3-9e96927a2b5e",
+  "roomDropBehavior": "keepDisconnected",
+  "baseObjectsIgnoredValidationRuleIds": [],
+  "baseObjects": [],
+  "gameObjects": [],
+  "adjacencyMode": "EightDirectional",
+  "startingRoomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+  "roomIds": [
+    "bf9abdbf-f159-4c38-a903-d5b026a72084",
+    "0dd5753d-953c-4a11-9412-d3e110f10af3",
+    "34e54205-9b7b-4cbd-8773-fd5a13f85d0a",
+    "b4148986-823d-4d9a-832d-f31f60165e79",
+    "88b18fca-3ad3-4ab8-89b7-fdde92db40c9"
+  ],
+  "roomPlacements": [
+    {
+      "roomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "x": 564,
+      "y": 584,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "x": 384,
+      "y": 584,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "34e54205-9b7b-4cbd-8773-fd5a13f85d0a",
+      "x": 564,
+      "y": 724,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "x": 384,
+      "y": 444,
+      "floorElevation": 2
+    },
+    {
+      "roomId": "88b18fca-3ad3-4ab8-89b7-fdde92db40c9",
+      "x": 384,
+      "y": 304,
+      "floorElevation": 2
+    }
+  ],
+  "traversalConnections": [
+    {
+      "traversalConnectionId": "69f5b3c7-63b5-40fd-983e-f6f7004cee36",
+      "roomAId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "roomBId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "baseTraversalDirectionFromA": "East",
+      "traversalAccessMode": "TwoWay",
+      "presentationEffectKey": "room.transition.fade.blackoutswap.medium",
+      "traversalStateFromA": {
+        "openableObjectId": "52290c69-e58f-49a8-b42f-b12b17372843",
+        "openStatePolicy": "IgnoreOpenableState",
+        "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb",
+        "availableGameActions": [
+          {
+            "id": "ce84b5a3-0498-4d7a-8897-7e739407063b",
+            "name": "Look",
+            "payload": {
+              "$payloadType": "echoMessage"
+            },
+            "actionType": "EchoMessage",
+            "noVerbLinkage": true,
+            "verbListText": "",
+            "direction": "",
+            "outcomeMessageMap": {
+              "Success": "There looks to be a Hotel Room thru the door"
+            },
+            "childCommandForwardingMode": "None",
+            "similarChildDispatchMode": "SingleMatchingChild"
+          }
+        ],
+        "gameProperties": [
+          {
+            "id": "8e9820d3-5ae6-44cf-9cc4-3baf74c6c01f",
+            "name": "isPassable",
+            "defaultValue": "false",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton",
+            "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb"
+          }
+        ]
+      },
+      "traversalStateFromB": {
+        "openableObjectId": "08678426-f539-4688-b6a5-f574f3dda3bb",
+        "openStatePolicy": "IgnoreOpenableState",
+        "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb",
+        "availableGameActions": [
+          {
+            "id": "6cf99254-7e75-4f52-ad05-7a2a43289ac5",
+            "name": "Look",
+            "payload": {
+              "$payloadType": "echoMessage"
+            },
+            "actionType": "EchoMessage",
+            "noVerbLinkage": true,
+            "verbListText": "",
+            "direction": "",
+            "outcomeMessageMap": {
+              "Success": "There looks to be a Hallway1 thru the door"
+            },
+            "childCommandForwardingMode": "None",
+            "similarChildDispatchMode": "SingleMatchingChild"
+          }
+        ],
+        "gameProperties": [
+          {
+            "id": "ac2d87d3-7e4d-448e-ac68-f46cf4e20cca",
+            "name": "isPassable",
+            "defaultValue": "false",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton",
+            "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb"
+          }
+        ]
+      },
+      "openStateBindingMode": "Together",
+      "gameProperties": []
+    },
+    {
+      "traversalConnectionId": "e8088acb-5fc2-4def-86ed-f24be275ece8",
+      "roomAId": "34e54205-9b7b-4cbd-8773-fd5a13f85d0a",
+      "roomBId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+      "baseTraversalDirectionFromA": "North",
+      "traversalAccessMode": "TwoWay",
+      "presentationEffectKey": "room.transition.fade.blackoutswap.medium",
+      "traversalStateFromA": {
+        "openableObjectId": "77a40081-3da3-4b85-8458-c684ff124b64",
+        "openStatePolicy": "IgnoreOpenableState",
+        "sharedVariableId": "f5bbb961-f30f-40a5-98af-5543a5172863",
+        "availableGameActions": [
+          {
+            "id": "c3f5ffe8-96f3-41ac-8002-129114551785",
+            "name": "Look",
+            "payload": {
+              "$payloadType": "echoMessage"
+            },
+            "actionType": "EchoMessage",
+            "noVerbLinkage": true,
+            "verbListText": "",
+            "direction": "",
+            "outcomeMessageMap": {
+              "Success": "There looks to be a Hotel Room thru the door"
+            },
+            "childCommandForwardingMode": "None",
+            "similarChildDispatchMode": "SingleMatchingChild"
+          }
+        ],
+        "gameProperties": [
+          {
+            "id": "b4144d40-40af-497b-a286-a821858727ae",
+            "name": "isPassable",
+            "defaultValue": "false",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton",
+            "sharedVariableId": "f5bbb961-f30f-40a5-98af-5543a5172863"
+          }
+        ]
+      },
+      "traversalStateFromB": {
+        "openableObjectId": "fcb45339-d252-4663-947d-0dcbf3bee1ea",
+        "openStatePolicy": "IgnoreOpenableState",
+        "sharedVariableId": "f5bbb961-f30f-40a5-98af-5543a5172863",
+        "availableGameActions": [
+          {
+            "id": "5e0ea747-ca35-4d86-aec3-0f2bf7ab71fd",
+            "name": "Look",
+            "payload": {
+              "$payloadType": "echoMessage"
+            },
+            "actionType": "EchoMessage",
+            "noVerbLinkage": true,
+            "verbListText": "",
+            "direction": "",
+            "outcomeMessageMap": {
+              "Success": "There looks to be a Hotel Room Bath thru the door"
+            },
+            "childCommandForwardingMode": "None",
+            "similarChildDispatchMode": "SingleMatchingChild"
+          }
+        ],
+        "gameProperties": [
+          {
+            "id": "9289ce47-6fb8-4692-95d5-cc95857e45c9",
+            "name": "isPassable",
+            "defaultValue": "false",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton",
+            "sharedVariableId": "f5bbb961-f30f-40a5-98af-5543a5172863"
+          }
+        ]
+      },
+      "openStateBindingMode": "Together",
+      "gameProperties": []
+    },
+    {
+      "traversalConnectionId": "9616f467-5be3-40fb-a880-c98fad5acf9b",
+      "roomAId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+      "roomBId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "baseTraversalDirectionFromA": "North",
+      "traversalAccessMode": "TwoWay",
+      "traversalStateFromA": {
+        "openStatePolicy": "IgnoreOpenableState",
+        "availableGameActions": [],
+        "gameProperties": [
+          {
+            "id": "64b13d78-dbe5-4fd5-bc91-13c275fa03f3",
+            "name": "isPassable",
+            "defaultValue": "true",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton"
+          }
+        ]
+      },
+      "traversalStateFromB": {
+        "openStatePolicy": "IgnoreOpenableState",
+        "availableGameActions": [],
+        "gameProperties": [
+          {
+            "id": "1c2675eb-27a9-4860-8d73-42712f7798c5",
+            "name": "isPassable",
+            "defaultValue": "true",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton"
+          }
+        ]
+      },
+      "openStateBindingMode": "Together",
+      "gameProperties": []
+    },
+    {
+      "traversalConnectionId": "971b63b4-3056-4c5d-b8fc-c5e6366e2e79",
+      "roomAId": "88b18fca-3ad3-4ab8-89b7-fdde92db40c9",
+      "roomBId": "b4148986-823d-4d9a-832d-f31f60165e79",
+      "baseTraversalDirectionFromA": "South",
+      "traversalAccessMode": "TwoWay",
+      "traversalStateFromA": {
+        "openStatePolicy": "IgnoreOpenableState",
+        "availableGameActions": [],
+        "gameProperties": [
+          {
+            "id": "d3eb4ad7-c9c1-43f5-90cf-d698cb00c6f7",
+            "name": "isPassable",
+            "defaultValue": "true",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton"
+          }
+        ]
+      },
+      "traversalStateFromB": {
+        "openStatePolicy": "IgnoreOpenableState",
+        "availableGameActions": [],
+        "gameProperties": [
+          {
+            "id": "eff51cac-5cba-44f1-90cd-17a0c955bfb3",
+            "name": "isPassable",
+            "defaultValue": "true",
+            "valueRestriction": "TrueFalse",
+            "lifetime": "Singleton"
+          }
+        ]
+      },
+      "openStateBindingMode": "Independent",
+      "gameProperties": []
+    }
+  ],
+  "id": "9d5029a9-ecd9-49d4-8c8d-0815a13abaf6",
+  "name": "Birmingham",
+  "nameInGame": "Birmingham",
+  "hideEmptyConfiguration": false,
+  "validationErrors": [],
+  "ignoredValidationRuleIds": [],
+  "scopeKind": "Area",
+  "baseObjectIds": [],
+  "gameObjectIds": [],
+  "gameProperties": [],
+  "additionalVerbs": [],
+  "additionalDirectionals": [],
+  "additionalDirectionalTraversalMappings": [],
+  "availableGameActions": [],
+  "eventSubscriptions": [],
+  "timerDefinitions": [],
+  "soundEffectLibraryEntries": []
+}

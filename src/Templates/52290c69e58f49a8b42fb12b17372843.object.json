@@ -1,0 +1,67 @@
+{
+  "objectType": "Door_E",
+  "positionX": 360,
+  "positionY": 240,
+  "includeInPreview": true,
+  "linkedBaseObjectId": "ef2f58e7-f01f-4ad0-a6c2-20f20042d5f2",
+  "linkActionsToBaseObject": true,
+  "productionName": "Door opens East from Hallway1 to Hotel Room.",
+  "imageRotationDegrees": 90,
+  "renderZOrder": 1001,
+  "quantity": 1,
+  "quantifiablePlacementDistributionMode": "IndividualInstances",
+  "containedObjects": [],
+  "id": "52290c69-e58f-49a8-b42f-b12b17372843",
+  "name": "Door_E",
+  "nameInGame": "East Door",
+  "hideEmptyConfiguration": false,
+  "scopeKind": "Templates",
+  "gameProperties": [
+    {
+      "id": "63619bd5-0a07-4960-8b8e-27a4b60d93c7",
+      "name": "isOpen",
+      "defaultValue": "false",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton",
+      "sharedVariableId": "3c254f65-4b8f-46e7-a0f9-78fc1e1ec0fb"
+    },
+    {
+      "id": "d885c7bd-2163-4cf0-8897-9ed18b572f0d",
+      "name": "isLocked",
+      "defaultValue": "true",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "d8d499e6-d8cc-403b-b6eb-0e844ab4e292",
+      "name": "lookingFromHere",
+      "defaultValue": "the east",
+      "valueRestriction": "Unrestricted",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "958842a8-ab87-4821-8c88-93ba4691631b",
+      "name": "destinationFromHere",
+      "defaultValue": "Hotel Room",
+      "valueRestriction": "Unrestricted",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "8f719f9b-2074-4001-bb0a-4ef21fced13f",
+      "name": "isQuantifiable",
+      "defaultValue": "true",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "10301087-71af-4569-8e59-92fbaeb301d3",
+      "name": "quantity",
+      "defaultValue": "1",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    }
+  ],
+  "eventSubscriptions": [],
+  "timerDefinitions": [],
+  "soundEffectLibraryEntries": []
+}

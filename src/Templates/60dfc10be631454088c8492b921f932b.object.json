@@ -1,0 +1,66 @@
+{
+  "objectType": "VicHotel_Base_Door_Longwall",
+  "positionX": 360,
+  "positionY": 280,
+  "includeInPreview": true,
+  "linkedBaseObjectId": "ef2f58e7-f01f-4ad0-a6c2-20f20042d5f2",
+  "linkActionsToBaseObject": true,
+  "productionName": "",
+  "imageRotationDegrees": 90,
+  "renderZOrder": 1001,
+  "quantity": 1,
+  "quantifiablePlacementDistributionMode": "IndividualInstances",
+  "containedObjects": [],
+  "id": "60dfc10b-e631-4540-88c8-492b921f932b",
+  "name": "VicHotel_Base_Door_Longwall",
+  "nameInGame": "VicHotel_Base_Door_Longwall",
+  "hideEmptyConfiguration": false,
+  "scopeKind": "Templates",
+  "gameProperties": [
+    {
+      "id": "316fe6d1-b07d-458d-9f65-cb0182fb7b30",
+      "name": "isOpen",
+      "defaultValue": "false",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "0ecba0f6-0296-4215-b9e7-c349a077c1d7",
+      "name": "isLocked",
+      "defaultValue": "false",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "ecdb36fd-a783-4c1b-846b-66d452453c93",
+      "name": "lookingFromHere",
+      "defaultValue": "",
+      "valueRestriction": "Unrestricted",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "2c3fe708-94c3-49f4-b278-8eea674f8e79",
+      "name": "destinationFromHere",
+      "defaultValue": "",
+      "valueRestriction": "Unrestricted",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "ecf89aa2-0076-4635-852a-7c50e0578cf3",
+      "name": "isQuantifiable",
+      "defaultValue": "true",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "74fba6fb-fa36-46e9-8ef8-9bb47c73e959",
+      "name": "quantity",
+      "defaultValue": "1",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    }
+  ],
+  "eventSubscriptions": [],
+  "timerDefinitions": [],
+  "soundEffectLibraryEntries": []
+}

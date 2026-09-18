@@ -1,0 +1,159 @@
+{
+  "description": "",
+  "roomImageCanvasWidth": 400,
+  "roomImageCanvasHeight": 800,
+  "roomDisplayMode": "Overlay",
+  "images": [
+    {
+      "slot": "Default",
+      "overlayRenderOrder": 150,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 0,
+      "fullImagePath": "",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "Down",
+      "overlayRenderOrder": 0,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": -90,
+      "fullImagePath": "assets/images/_shared/b455737367a79063c37fc674283c04ccb090956ebd98f5e4f283a48249a8dd07__VicHotel_Floor_03.png",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "East",
+      "overlayRenderOrder": 100,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": -40,
+      "overlayRotationDegrees": -90,
+      "fullImagePath": "assets/images/_shared/4ca15f6a3f228b19e0a4238f8380e916fe67c875facb3dacee847e0739e72f63__VicHotel_LongWall_MidDoor_03.png",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "North",
+      "overlayRenderOrder": 100,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": -90,
+      "fullImagePath": "",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "NorthEast",
+      "overlayRenderOrder": 200,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 0,
+      "fullImagePath": "",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "NorthWest",
+      "overlayRenderOrder": 200,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 0,
+      "fullImagePath": "",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "South",
+      "overlayRenderOrder": 100,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 0,
+      "fullImagePath": "assets/images/_shared/c4d327caae60331a200cf075901aa6aefef7491b8d783ba153765f5fb125643b__VicHotel_LongWall_03.png",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "SouthEast",
+      "overlayRenderOrder": 200,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 90,
+      "fullImagePath": "assets/images/_shared/980ffb7148861c039dbe72ced8dc417f524eeb819c955de5e5e9a687beb52aff__VicHotel_HallWayTop_Corner_02.png",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "SouthWest",
+      "overlayRenderOrder": 200,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 180,
+      "fullImagePath": "assets/images/_shared/980ffb7148861c039dbe72ced8dc417f524eeb819c955de5e5e9a687beb52aff__VicHotel_HallWayTop_Corner_02.png",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "Up",
+      "overlayRenderOrder": 150,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 0,
+      "fullImagePath": "",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    },
+    {
+      "slot": "West",
+      "overlayRenderOrder": 100,
+      "overlayOffsetX": 0,
+      "overlayOffsetY": 0,
+      "overlayRotationDegrees": 90,
+      "fullImagePath": "assets/images/_shared/c4d327caae60331a200cf075901aa6aefef7491b8d783ba153765f5fb125643b__VicHotel_LongWall_03.png",
+      "grayMapImagePath": "",
+      "normalMapImagePath": "",
+      "imagePathSemantics": "runtimeExportRelative"
+    }
+  ],
+  "Id": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+  "name": "HallwaySouthEnd",
+  "nameInGame": "South Hallway",
+  "scopeKind": "Room",
+  "gameObjectIds": [
+    "5153be22-a16c-4e97-b0bb-4a0a2a900ec9",
+    "515bb778-5522-464b-92e8-be45d688b0e0",
+    "52290c69-e58f-49a8-b42f-b12b17372843",
+    "a9d927bd-49d1-4b7c-b4c8-2bfd51816de7",
+    "b7c59073-885e-4634-a8df-8dd4db0aded4",
+    "e1900788-a3fe-45d1-93f8-1bf8311f064e"
+  ],
+  "availableGameActions": [
+    {
+      "id": "98bb6915-aa68-435c-a8a2-c2d26ccd4c20",
+      "name": "tmp_test_remove_when_done",
+      "payload": {
+        "$payloadType": "echoMessage"
+      },
+      "actionType": "EchoMessage",
+      "noVerbLinkage": false,
+      "verbListText": "look",
+      "direction": "",
+      "outcomeMessageMap": {
+        "Failure": "",
+        "Success": "You are in {self.name}"
+      },
+      "childCommandForwardingMode": "None"
+    }
+  ]
+}
