@@ -1,0 +1,77 @@
+{
+  "linkActionsToBaseObject": false,
+  "productionName": "",
+  "imageVariants": [
+    {
+      "variantName": "default",
+      "fullImagePath": "assets/images/_shared/e9460f7901cbb220df0778b296789b1356d2e718aad30ac291d564b8c176ea2d__VicHotel_RunnerRug_01.2.png",
+      "imageScale": 0.6,
+      "isDefault": true,
+      "imagePathSemantics": "runtimeExportRelative"
+    }
+  ],
+  "imageRotationDegrees": 270,
+  "renderZOrder": 1007,
+  "appearance": {
+    "spatialType": "PassiveObject",
+    "isMovableDefaultValue": true,
+    "footprintWidthCells": 6,
+    "footprintHeightCells": 6,
+    "footprintOrientation": "North",
+    "headingDirection": "North",
+    "objectHeightUnits": 1,
+    "stackScaleStepOverride": 0.08,
+    "minStackScaleOverride": 0.5
+  },
+  "isInventoriable": false,
+  "inventoryPointsDefaultValue": 1,
+  "isContainer": false,
+  "containerPointsDefaultValue": 1,
+  "isOpenable": false,
+  "isOpenDefaultValue": false,
+  "isLockable": false,
+  "isLockedDefaultValue": false,
+  "isActivatable": false,
+  "isActiveDefaultValue": false,
+  "isHidable": false,
+  "isHiddenDefaultValue": false,
+  "description": "",
+  "isQuantifiable": false,
+  "quantity": 1,
+  "quantifiablePlacementDistributionMode": "GroupedStack",
+  "isRuntimeMaterialized": false,
+  "Id": "4e1e5d28-cf32-4706-9da7-37321af61154",
+  "name": "HallwayRug",
+  "nameInGame": "HallwayRug",
+  "scopeKind": "GameObject",
+  "gameProperties": [
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "imageRotationDegrees",
+      "defaultValue": "270",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "imageScale",
+      "defaultValue": "0.6",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "positionX",
+      "defaultValue": "80",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "positionY",
+      "defaultValue": "440",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    }
+  ]
+}
