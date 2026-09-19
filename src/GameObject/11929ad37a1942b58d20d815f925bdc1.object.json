@@ -9,7 +9,7 @@
   "imageVariants": [
     {
       "variantName": "default",
-      "fullImagePath": "ASSETROOT:/FormalImages/Victorian/HallWay/VicHotel_RunnerRug_01.1600.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/FormalImages/Victorian/HallWay/VicHotel_RunnerRug_01.1600.png",
       "imageLocalAlignmentRotationDegrees": 0,
       "imageLocalAlignmentOffsetX": 0,
       "imageLocalAlignmentOffsetY": 0,

@@ -9,7 +9,7 @@
   "imageVariants": [
     {
       "variantName": "default",
-      "fullImagePath": "ASSETROOT:/FormalImages/Victorian/HotelRoom/VicHotel_Rug_01.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT_ASSETLIB%/FormalImages/Victorian/HotelRoom/VicHotel_Rug_01.png",
       "imageLocalAlignmentRotationDegrees": 0,
       "imageLocalAlignmentOffsetX": -8,
       "imageLocalAlignmentOffsetY": 20,

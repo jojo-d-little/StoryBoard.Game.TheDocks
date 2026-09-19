@@ -112,7 +112,7 @@
       "overlayOffsetX": 0,
       "overlayOffsetY": 0,
       "overlayRotationDegrees": 0,
-      "fullImagePath": "ASSETROOT:/PlaceHolderImages/Bathroom_Floor_400x320.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/PlaceHolderImages/Bathroom_Floor_400x320.png",
       "grayMapImagePath": "",
       "normalMapImagePath": ""
     }

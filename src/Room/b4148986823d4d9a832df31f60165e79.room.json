@@ -42,7 +42,7 @@
       "overlayOffsetX": 0,
       "overlayOffsetY": 0,
       "overlayRotationDegrees": -90,
-      "fullImagePath": "ASSETROOT:/FormalImages/Victorian/HallWay/VicHotel_LongWall_MidDoor_03.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/FormalImages/Victorian/HallWay/VicHotel_LongWall_MidDoor_03.png",
       "grayMapImagePath": "",
       "normalMapImagePath": ""
     },
@@ -82,7 +82,7 @@
       "overlayOffsetX": 0,
       "overlayOffsetY": 0,
       "overlayRotationDegrees": 90,
-      "fullImagePath": "ASSETROOT:/FormalImages/Victorian/HallWay/VicHotel_LongWall_03.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/FormalImages/Victorian/HallWay/VicHotel_LongWall_03.png",
       "grayMapImagePath": "",
       "normalMapImagePath": ""
     },
@@ -112,7 +112,7 @@
       "overlayOffsetX": 0,
       "overlayOffsetY": 0,
       "overlayRotationDegrees": -90,
-      "fullImagePath": "ASSETROOT:/FormalImages/Victorian/HallWay/VicHotel_Floor_03.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/FormalImages/Victorian/HallWay/VicHotel_Floor_03.png",
       "grayMapImagePath": "",
       "normalMapImagePath": ""
     }

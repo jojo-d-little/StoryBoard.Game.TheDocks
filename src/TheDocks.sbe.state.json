@@ -3,9 +3,9 @@
     "planetName": "Earth",
     "countryName": "England",
     "areaName": "Birmingham",
-    "roomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
+    "roomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
     "selectedWorkspaceTabIndex": 0,
-    "lastSelectedNodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:0dd5753d953c4a119412d3e110f10af3/room-objects:0dd5753d953c4a119412d3e110f10af3/object:HallwayRug#0",
+    "lastSelectedNodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:bf9abdbff1594c38a903d5b026a72084/room-objects:bf9abdbff1594c38a903d5b026a72084/object:Floor Rug#1",
     "lastTreeValidationActionId": "validate-whole-project",
     "lastTreeValidationCompletionMode": "FullReport"
   }
