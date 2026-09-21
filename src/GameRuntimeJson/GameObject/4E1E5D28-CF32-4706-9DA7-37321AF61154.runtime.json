@@ -4,7 +4,7 @@
   "imageVariants": [
     {
       "variantName": "default",
-      "fullImagePath": "assets/images/_shared/e9460f7901cbb220df0778b296789b1356d2e718aad30ac291d564b8c176ea2d__VicHotel_RunnerRug_01.2.png",
+      "fullImagePath": "assets/images/_shared/dae1dae9d51444bdceaaad2661a7cfaa7a83fea74d8b0353eb8e0d9934c3b7ea__VicHotel_RunnerRug_01.2.end1.png",
       "imageScale": 0.6,
       "isDefault": true,
       "imagePathSemantics": "runtimeExportRelative"
@@ -15,7 +15,7 @@
   "appearance": {
     "spatialType": "PassiveObject",
     "isMovableDefaultValue": true,
-    "footprintWidthCells": 6,
+    "footprintWidthCells": 17,
     "footprintHeightCells": 6,
     "footprintOrientation": "North",
     "headingDirection": "North",
@@ -69,7 +69,7 @@
     {
       "id": "00000000-0000-0000-0000-000000000000",
       "name": "positionY",
-      "defaultValue": "440",
+      "defaultValue": "40",
       "valueRestriction": "Numeric",
       "lifetime": "Singleton"
     }

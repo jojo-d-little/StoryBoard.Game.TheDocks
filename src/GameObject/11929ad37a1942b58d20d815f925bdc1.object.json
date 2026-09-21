@@ -22,7 +22,7 @@
   "appearance": {
     "spatialType": "PassiveObject",
     "isMovableDefaultValue": true,
-    "footprintWidthCells": 6,
+    "footprintWidthCells": 20,
     "footprintHeightCells": 6,
     "footprintOrientation": "N",
     "headingDirection": "N",

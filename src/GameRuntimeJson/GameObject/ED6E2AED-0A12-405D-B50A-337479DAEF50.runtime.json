@@ -4,9 +4,8 @@
   "imageVariants": [
     {
       "variantName": "default",
-      "fullImagePath": "assets/images/_shared/f8c8d7784dc29beffa1542afdc57b84127c782190b3e191fd6a45824dbce450a__VicHotel_Rug_01.png",
-      "imageLocalAlignmentOffsetX": -8,
-      "imageLocalAlignmentOffsetY": 20,
+      "fullImagePath": "assets/images/_shared/9c7c17337e98a4416d199b72b08efd76138a802a23ac9e5855880f4da41319a1__VicHotel_Rug_01.png",
+      "imageLocalAlignmentOffsetY": 14,
       "imageScale": 1,
       "isDefault": true,
       "imagePathSemantics": "runtimeExportRelative"
