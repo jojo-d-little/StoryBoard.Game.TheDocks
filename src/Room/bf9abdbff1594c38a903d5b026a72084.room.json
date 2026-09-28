@@ -22,7 +22,7 @@
       "overlayOffsetX": 0,
       "overlayOffsetY": 0,
       "overlayRotationDegrees": 0,
-      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/FormalImages/Victorian/HotelRoom/VicHotel_LongWall_01.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT_ASSETLIB%/FormalImages/Victorian/HotelRoom/VicHotel_LongWall_01.png",
       "grayMapImagePath": "",
       "normalMapImagePath": ""
     },
@@ -42,7 +42,7 @@
       "overlayOffsetX": 0,
       "overlayOffsetY": 0,
       "overlayRotationDegrees": 0,
-      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/FormalImages/Victorian/HotelRoom/VicHotel_BayWindow_01_Short_96DPI.png",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT_ASSETLIB%/FormalImages/Victorian/HotelRoom/VicHotel_BayWindow_01_Short_96DPI.png",
       "grayMapImagePath": "",
       "normalMapImagePath": ""
     },
@@ -125,6 +125,7 @@
   "ignoredValidationRuleIds": [],
   "scopeKind": "Room",
   "gameObjectIds": [
+    "f0b7f3d2-71dc-43fa-b3f1-43022548cd8d",
     "fcb45339-d252-4663-947d-0dcbf3bee1ea",
     "ed6e2aed-0a12-405d-b50a-337479daef50",
     "08678426-f539-4688-b6a5-f574f3dda3bb"

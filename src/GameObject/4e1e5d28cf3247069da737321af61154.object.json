@@ -18,12 +18,13 @@
     }
   ],
   "imageRotationDegrees": 270,
-  "renderZOrder": 1007,
+  "renderZOrder": 1006,
   "appearance": {
     "spatialType": "PassiveObject",
     "isMovableDefaultValue": true,
     "footprintWidthCells": 17,
     "footprintHeightCells": 6,
+    "footprintCornerStyle": "sharp",
     "footprintOrientation": "N",
     "headingDirection": "N",
     "objectHeightUnits": 1,
@@ -31,6 +32,7 @@
     "stackScaleStepOverride": 0.08,
     "minStackScaleOverride": 0.5
   },
+  "isPointLightEnabledDefaultValue": true,
   "isInventoriable": false,
   "inventoryPointsDefaultValue": 1,
   "isContainer": false,

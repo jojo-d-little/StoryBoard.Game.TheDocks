@@ -2,6 +2,10 @@
   "description": "",
   "roomImageCanvasWidth": 400,
   "roomImageCanvasHeight": 800,
+  "ambientLighting": {
+    "ambient": 0.8,
+    "ambientColor": "#FFFFFF"
+  },
   "roomDisplayMode": "Overlay",
   "images": [
     {
@@ -135,8 +139,7 @@
     "11929ad3-7a19-42b5-8d20-d815f925bdc1",
     "60dfc10b-e631-4540-88c8-492b921f932b",
     "6183eb62-019b-4633-aa14-cab7e7a624fe",
-    "a1d41db6-38e0-4fb8-927e-1b7e980927ba",
-    "bcf8835a-e7c0-4ebb-8ce1-5555eb6d0dc9"
+    "a1d41db6-38e0-4fb8-927e-1b7e980927ba"
   ],
   "availableGameActions": []
 }

@@ -4,7 +4,9 @@
   "displayName": "The Book of Stories",
   "title": "The Book of Stories",
   "titlePresentationCueEffectKey": "text.hudoverlay.titlesplash.manualdismiss",
-  "childPhaseIds": [],
+  "childPhaseIds": [
+    "a1b52533-1c9d-4449-9d2b-b2d51f36a38c"
+  ],
   "Id": "bb4dba02-f87e-4fd2-ad5f-f2a0243c5030",
   "name": "The Book of Stories",
   "nameInGame": "The Book of Stories",

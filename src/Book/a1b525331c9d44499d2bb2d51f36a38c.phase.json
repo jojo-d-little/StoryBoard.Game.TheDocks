@@ -1,20 +1,25 @@
 {
   "phases": [],
-  "phaseKey": "book-1",
-  "phaseTier": "Book",
-  "displayName": "The Book of Stories",
-  "title": "The Book of Stories",
-  "titlePresentationCueEffectKey": "text.hudoverlay.titlesplash.manualdismiss",
+  "phaseKey": "chapter-1",
+  "phaseTier": "Chapter",
+  "displayName": "Chapter One",
+  "parentPhaseId": "bb4dba02-f87e-4fd2-ad5f-f2a0243c5030",
   "childPhaseIds": [
-    "a1b52533-1c9d-4449-9d2b-b2d51f36a38c"
+    "2397ac2a-4847-4a72-892e-e81018a9d1c0"
   ],
-  "id": "bb4dba02-f87e-4fd2-ad5f-f2a0243c5030",
+  "phaseAmbientOverlay": {
+    "ambientScale": 0.7,
+    "color": "#FFFFFF",
+    "colorMode": "Blend",
+    "colorBlend": 0.25
+  },
+  "id": "a1b52533-1c9d-4449-9d2b-b2d51f36a38c",
   "name": "",
   "nameInGame": "",
   "hideEmptyConfiguration": false,
   "validationErrors": [],
   "ignoredValidationRuleIds": [],
-  "scopeKind": "Book",
+  "scopeKind": "Chapter",
   "gameProperties": [],
   "additionalVerbs": [],
   "additionalDirectionals": [],

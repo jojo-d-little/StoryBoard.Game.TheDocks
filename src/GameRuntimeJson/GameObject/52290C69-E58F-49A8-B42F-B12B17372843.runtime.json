@@ -4,9 +4,14 @@
   "productionName": "Door opens East from Hallway1 to Hotel Room.",
   "imageRotationDegrees": 90,
   "renderZOrder": 1001,
+  "lightOcclusion": {
+    "strength": 1
+  },
+  "isPointLightEnabledDefaultValue": true,
   "quantity": 1,
   "quantifiablePlacementDistributionMode": "IndividualInstances",
   "isRuntimeMaterialized": false,
+  "isPointLightEnabled": true,
   "Id": "52290c69-e58f-49a8-b42f-b12b17372843",
   "name": "Door_E",
   "nameInGame": "East Door",

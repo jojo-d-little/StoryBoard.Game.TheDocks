@@ -18,12 +18,17 @@
     "isMovableDefaultValue": true,
     "footprintWidthCells": 3,
     "footprintHeightCells": 1,
+    "footprintCornerStyle": "sharp",
     "footprintOrientation": "North",
     "headingDirection": "North",
     "objectHeightUnits": 1,
     "stackScaleStepOverride": 0.08,
     "minStackScaleOverride": 0.5
   },
+  "lightOcclusion": {
+    "strength": 1
+  },
+  "isPointLightEnabledDefaultValue": true,
   "isInventoriable": false,
   "inventoryPointsDefaultValue": 1,
   "isContainer": false,
@@ -41,6 +46,7 @@
   "quantity": 1,
   "quantifiablePlacementDistributionMode": "GroupedStack",
   "isRuntimeMaterialized": false,
+  "isPointLightEnabled": true,
   "Id": "77a40081-3da3-4b85-8458-c684ff124b64",
   "name": "Door_N",
   "nameInGame": "Bathroom Door",

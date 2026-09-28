@@ -8,6 +8,10 @@
   "productionName": "Door opens East from Hallway1 to Hotel Room.",
   "imageRotationDegrees": 90,
   "renderZOrder": 1001,
+  "lightOcclusion": {
+    "strength": 1
+  },
+  "isPointLightEnabledDefaultValue": true,
   "quantity": 1,
   "quantifiablePlacementDistributionMode": "IndividualInstances",
   "containedObjects": [],

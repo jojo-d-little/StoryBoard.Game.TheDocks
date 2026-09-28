@@ -1,0 +1,11 @@
+{
+  "phaseKey": "page-1",
+  "phaseTier": "Page",
+  "displayName": "Page One",
+  "parentPhaseId": "a1b52533-1c9d-4449-9d2b-b2d51f36a38c",
+  "childPhaseIds": [],
+  "Id": "2397ac2a-4847-4a72-892e-e81018a9d1c0",
+  "name": "Page One",
+  "nameInGame": "Page One",
+  "scopeKind": "Page"
+}

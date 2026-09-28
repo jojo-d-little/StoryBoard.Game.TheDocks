@@ -4,9 +4,14 @@
   "productionName": "Door opens West from Hotel Room to Hallway1.",
   "imageRotationDegrees": 270,
   "renderZOrder": 1001,
+  "lightOcclusion": {
+    "strength": 1
+  },
+  "isPointLightEnabledDefaultValue": true,
   "quantity": 1,
   "quantifiablePlacementDistributionMode": "IndividualInstances",
   "isRuntimeMaterialized": false,
+  "isPointLightEnabled": true,
   "Id": "08678426-f539-4688-b6a5-f574f3dda3bb",
   "name": "Door_W",
   "nameInGame": "West Door",

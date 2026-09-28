@@ -4,9 +4,14 @@
   "productionName": "",
   "imageRotationDegrees": 90,
   "renderZOrder": 1001,
+  "lightOcclusion": {
+    "strength": 1
+  },
+  "isPointLightEnabledDefaultValue": true,
   "quantity": 1,
   "quantifiablePlacementDistributionMode": "IndividualInstances",
   "isRuntimeMaterialized": false,
+  "isPointLightEnabled": true,
   "Id": "60dfc10b-e631-4540-88c8-492b921f932b",
   "name": "VicHotel_Base_Door_Longwall",
   "nameInGame": "VicHotel_Base_Door_Longwall",

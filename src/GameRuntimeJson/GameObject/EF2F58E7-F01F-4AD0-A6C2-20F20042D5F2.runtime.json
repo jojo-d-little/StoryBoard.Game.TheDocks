@@ -26,12 +26,17 @@
     "isMovableDefaultValue": true,
     "footprintWidthCells": 6,
     "footprintHeightCells": 1,
+    "footprintCornerStyle": "sharp",
     "footprintOrientation": "North",
     "headingDirection": "North",
     "objectHeightUnits": 1,
     "stackScaleStepOverride": 0.1,
     "minStackScaleOverride": 0.5
   },
+  "lightOcclusion": {
+    "strength": 1
+  },
+  "isPointLightEnabledDefaultValue": true,
   "isInventoriable": false,
   "inventoryPointsDefaultValue": 1,
   "isContainer": false,
@@ -49,6 +54,7 @@
   "quantity": 1,
   "quantifiablePlacementDistributionMode": "IndividualInstances",
   "isRuntimeMaterialized": false,
+  "isPointLightEnabled": true,
   "Id": "ef2f58e7-f01f-4ad0-a6c2-20f20042d5f2",
   "name": "VicHotel_Base_Door_Longwall",
   "nameInGame": "VicHotel_Base_Door_Longwall",
