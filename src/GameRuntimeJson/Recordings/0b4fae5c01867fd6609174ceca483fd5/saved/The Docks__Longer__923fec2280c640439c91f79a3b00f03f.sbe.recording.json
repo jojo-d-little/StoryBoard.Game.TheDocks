@@ -1,0 +1,98 @@
+{
+  "recording": {
+    "recordingId": "923fec22-80c6-4043-9c91-f79a3b00f03f",
+    "gameId": "0b4fae5c-0186-7fd6-6091-74ceca483fd5",
+    "sourceSessionId": "ea0730a0-be51-43d0-beda-926b1d5e5195",
+    "scope": "Saved",
+    "displayName": "Longer",
+    "artifactSchemaVersion": "1.0",
+    "compatibility": "Compatible",
+    "startKind": "FreshSession",
+    "stateToken": "f2c5bf4eb1ce4e5da52bc54ebe358d65",
+    "state": "Stopped",
+    "createdUtc": "2026-09-29T11:00:57.0474364+00:00",
+    "updatedUtc": "2026-09-29T11:01:52.5538169+00:00",
+    "stepCount": 5
+  },
+  "steps": [
+    {
+      "sequence": 1,
+      "acceptedUtc": "2026-09-29T11:01:02.8189308+00:00",
+      "deltaMsFromPrevious": 0,
+      "commandCorrelationId": "639259955",
+      "rawCommandText": "open west door",
+      "clarificationAnswers": [],
+      "success": true,
+      "resultCode": "Success",
+      "outputLines": [
+        "The West Door opens"
+      ],
+      "diagnostics": [
+        "Canonical pass matched object phrase \u0027west door\u0027 to canonical object \u0027Door_W\u0027 at token index 1.",
+        "Resolved command objects: primary=Door_W; secondary=[(none)]."
+      ],
+      "moveLegTelemetry": []
+    },
+    {
+      "sequence": 2,
+      "acceptedUtc": "2026-09-29T11:01:09.0716063+00:00",
+      "deltaMsFromPrevious": 6252,
+      "commandCorrelationId": "639259956",
+      "rawCommandText": "go west",
+      "clarificationAnswers": [],
+      "success": true,
+      "resultCode": "Success",
+      "outputLines": [
+        "You left the Hotel Room and enter the South Hallway"
+      ],
+      "diagnostics": [],
+      "moveLegTelemetry": []
+    },
+    {
+      "sequence": 3,
+      "acceptedUtc": "2026-09-29T11:01:13.1449752+00:00",
+      "deltaMsFromPrevious": 4073,
+      "commandCorrelationId": "639259957",
+      "rawCommandText": "go north",
+      "clarificationAnswers": [],
+      "success": true,
+      "resultCode": "Success",
+      "outputLines": [
+        "You left the South Hallway and enter the Mid Hallway"
+      ],
+      "diagnostics": [],
+      "moveLegTelemetry": []
+    },
+    {
+      "sequence": 4,
+      "acceptedUtc": "2026-09-29T11:01:17.3377516+00:00",
+      "deltaMsFromPrevious": 4192,
+      "commandCorrelationId": "639259958",
+      "rawCommandText": "go north",
+      "clarificationAnswers": [],
+      "success": true,
+      "resultCode": "Success",
+      "outputLines": [
+        "You left the Mid Hallway and enter the North Hallway"
+      ],
+      "diagnostics": [],
+      "moveLegTelemetry": []
+    },
+    {
+      "sequence": 5,
+      "acceptedUtc": "2026-09-29T11:01:29.7387158+00:00",
+      "deltaMsFromPrevious": 12400,
+      "commandCorrelationId": "639259959",
+      "rawCommandText": "go south",
+      "clarificationAnswers": [],
+      "success": true,
+      "resultCode": "Success",
+      "outputLines": [
+        "You left the North Hallway and enter the Mid Hallway"
+      ],
+      "diagnostics": [],
+      "moveLegTelemetry": []
+    }
+  ],
+  "runtimeExportFingerprint": "CC6B103A3CD518D4CBE9273AF38926F9EB0F4E0EF74899EBF99E6048331EFD66"
+}

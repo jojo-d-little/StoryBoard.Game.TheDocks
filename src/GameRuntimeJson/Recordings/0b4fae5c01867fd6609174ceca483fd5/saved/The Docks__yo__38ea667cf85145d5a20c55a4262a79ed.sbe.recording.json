@@ -1,0 +1,38 @@
+{
+  "recording": {
+    "recordingId": "38ea667c-f851-45d5-a20c-55a4262a79ed",
+    "gameId": "0b4fae5c-0186-7fd6-6091-74ceca483fd5",
+    "sourceSessionId": "4c4e7fcb-f803-4a69-b8b6-b6d5dc1faf9a",
+    "scope": "Saved",
+    "displayName": "yo",
+    "artifactSchemaVersion": "1.0",
+    "compatibility": "Compatible",
+    "startKind": "FreshSession",
+    "stateToken": "b4255fda21694bff9cf602c69333cc6d",
+    "state": "Stopped",
+    "createdUtc": "2026-09-29T01:36:56.1384477+00:00",
+    "updatedUtc": "2026-09-29T15:35:42.3531347+00:00",
+    "stepCount": 1
+  },
+  "steps": [
+    {
+      "sequence": 1,
+      "acceptedUtc": "2026-09-29T01:36:59.5925481+00:00",
+      "deltaMsFromPrevious": 0,
+      "commandCorrelationId": "1339992540",
+      "rawCommandText": "open west door",
+      "clarificationAnswers": [],
+      "success": true,
+      "resultCode": "Success",
+      "outputLines": [
+        "The West Door opens"
+      ],
+      "diagnostics": [
+        "Canonical pass matched object phrase \u0027west door\u0027 to canonical object \u0027Door_W\u0027 at token index 1.",
+        "Resolved command objects: primary=Door_W; secondary=[(none)]."
+      ],
+      "moveLegTelemetry": []
+    }
+  ],
+  "runtimeExportFingerprint": null
+}

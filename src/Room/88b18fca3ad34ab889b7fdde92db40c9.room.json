@@ -80,7 +80,7 @@
       "slot": "West",
       "overlayRenderOrder": 100,
       "overlayOffsetX": 0,
-      "overlayOffsetY": 0,
+      "overlayOffsetY": 100,
       "overlayRotationDegrees": 90,
       "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT%/FormalImages/Victorian/HallWay/VicHotel_LongWall_03.png",
       "grayMapImagePath": "",
@@ -90,9 +90,9 @@
       "slot": "NorthWest",
       "overlayRenderOrder": 200,
       "overlayOffsetX": 0,
-      "overlayOffsetY": 0,
+      "overlayOffsetY": 47,
       "overlayRotationDegrees": 0,
-      "fullImagePath": "",
+      "fullImagePath": "%STORYBOARD_ASSET_SOURCE_ROOT_ASSETLIB%/FormalImages/Victorian/HallWay/VicHotel_HallWayTop_Corner_02.png",
       "grayMapImagePath": "",
       "normalMapImagePath": ""
     },
@@ -125,6 +125,10 @@
   "ignoredValidationRuleIds": [],
   "scopeKind": "Room",
   "gameObjectIds": [
+    "1c39e9a1-c432-4a69-9f7a-421efc2a0105",
+    "ee2a6590-6822-489e-95ee-94c50f9eb910",
+    "8564766d-7c5c-441a-9ec3-80d27b9fae11",
+    "8d9db452-b429-4244-a5ee-1dec3f830452",
     "96c8943a-b488-4700-9dad-0f8a08211fc4"
   ],
   "gameProperties": [],

@@ -1,0 +1,54 @@
+{
+  "objectType": "Sconce1",
+  "positionX": 360,
+  "positionY": 200,
+  "includeInPreview": true,
+  "linkedBaseObjectId": "e8219cc3-a4ab-4bc8-ab4f-8768522f40c9",
+  "linkActionsToBaseObject": true,
+  "productionName": "",
+  "imageRotationDegrees": 90,
+  "renderZOrder": 1005,
+  "pointLight": {
+    "offsetXPx": 22,
+    "offsetYPx": 37,
+    "radiusPx": 258,
+    "motionMode": "flicker",
+    "phase": 1.57,
+    "useInstancePhaseShifting": true,
+    "color": "#ECD07C",
+    "outerColor": "#F3E2A8",
+    "gradientExponent": 3.01,
+    "intensityScale": 1,
+    "flickerAmount": 0.5,
+    "flickerHz": 2,
+    "flickerStyle": "flame"
+  },
+  "isPointLightEnabledDefaultValue": true,
+  "quantity": 1,
+  "quantifiablePlacementDistributionMode": "IndividualInstances",
+  "containedObjects": [],
+  "id": "1c39e9a1-c432-4a69-9f7a-421efc2a0105",
+  "name": "Sconce1",
+  "nameInGame": "Sconce1",
+  "hideEmptyConfiguration": false,
+  "scopeKind": "Templates",
+  "gameProperties": [
+    {
+      "id": "e6c953ff-c91d-44cd-ae69-5411cbba2361",
+      "name": "isQuantifiable",
+      "defaultValue": "true",
+      "valueRestriction": "TrueFalse",
+      "lifetime": "Singleton"
+    },
+    {
+      "id": "d250cf02-3a87-4293-ad4f-1147d1e3e104",
+      "name": "quantity",
+      "defaultValue": "1",
+      "valueRestriction": "Numeric",
+      "lifetime": "Singleton"
+    }
+  ],
+  "eventSubscriptions": [],
+  "timerDefinitions": [],
+  "soundEffectLibraryEntries": []
+}

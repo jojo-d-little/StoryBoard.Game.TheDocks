@@ -4,57 +4,62 @@
     "countryName": "England",
     "areaName": "Birmingham",
     "mapDesignerAreaId": "9d5029a9-ecd9-49d4-8c8d-0815a13abaf6",
-    "roomId": "0dd5753d-953c-4a11-9412-d3e110f10af3",
-    "selectedWorkspaceTabIndex": 0,
-    "lastSelectedNodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:0dd5753d953c4a119412d3e110f10af3/room-objects:0dd5753d953c4a119412d3e110f10af3",
+    "roomId": "bf9abdbf-f159-4c38-a903-d5b026a72084",
+    "selectedWorkspaceTabIndex": 1,
+    "lastSelectedNodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6",
     "lastTreeValidationActionId": "validate-whole-project",
     "lastTreeValidationCompletionMode": "FullReport",
     "quickAccessRecentSectionRatio": 0.1688618866524441,
     "recentHierarchyNodes": [
       {
-        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:0dd5753d953c4a119412d3e110f10af3/room-objects:0dd5753d953c4a119412d3e110f10af3",
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6",
+        "displayName": "Birmingham",
+        "nodeTypeLabel": "Area"
+      },
+      {
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:88b18fca3ad34ab889b7fdde92db40c9/room-objects:88b18fca3ad34ab889b7fdde92db40c9/object:8564766d7c5c441a9ec380d27b9fae11",
+        "displayName": "Sconce1",
+        "nodeTypeLabel": "Game Object"
+      },
+      {
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:88b18fca3ad34ab889b7fdde92db40c9/room-objects:88b18fca3ad34ab889b7fdde92db40c9",
         "displayName": "Game Objects",
         "nodeTypeLabel": "Game Objects"
       },
       {
-        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:b4148986823d4d9a832df31f60165e79",
-        "displayName": "HallwayMiddle",
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:88b18fca3ad34ab889b7fdde92db40c9/room-objects:88b18fca3ad34ab889b7fdde92db40c9/object:8d9db452b4294244a5ee1dec3f830452",
+        "displayName": "NorthHallRun",
+        "nodeTypeLabel": "Game Object"
+      },
+      {
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:88b18fca3ad34ab889b7fdde92db40c9/room-objects:88b18fca3ad34ab889b7fdde92db40c9/object:8d9db452b4294244a5ee1dec3f830452/settings:object",
+        "displayName": "Game Object Settings",
+        "nodeTypeLabel": "Game Object Settings"
+      },
+      {
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:88b18fca3ad34ab889b7fdde92db40c9/settings:room",
+        "displayName": "Room Settings",
+        "nodeTypeLabel": "Room Settings"
+      },
+      {
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:88b18fca3ad34ab889b7fdde92db40c9",
+        "displayName": "HallwayNorthEnd",
         "nodeTypeLabel": "Room"
       },
       {
-        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:b4148986823d4d9a832df31f60165e79/room-objects:b4148986823d4d9a832df31f60165e79",
-        "displayName": "Game Objects",
-        "nodeTypeLabel": "Game Objects"
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:0dd5753d953c4a119412d3e110f10af3/room-objects:0dd5753d953c4a119412d3e110f10af3/object:4e1e5d28cf3247069da737321af61154/settings:object",
+        "displayName": "Game Object Settings",
+        "nodeTypeLabel": "Game Object Settings"
       },
       {
-        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:b4148986823d4d9a832df31f60165e79/settings:room",
-        "displayName": "Room Settings",
-        "nodeTypeLabel": "Room Settings"
+        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:0dd5753d953c4a119412d3e110f10af3/room-objects:0dd5753d953c4a119412d3e110f10af3/object:4e1e5d28cf3247069da737321af61154",
+        "displayName": "HallwayRug",
+        "nodeTypeLabel": "Game Object"
       },
       {
         "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:0dd5753d953c4a119412d3e110f10af3",
         "displayName": "HallwaySouthEnd",
         "nodeTypeLabel": "Room"
-      },
-      {
-        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:bf9abdbff1594c38a903d5b026a72084",
-        "displayName": "Hotel Room",
-        "nodeTypeLabel": "Room"
-      },
-      {
-        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:bf9abdbff1594c38a903d5b026a72084/room-objects:bf9abdbff1594c38a903d5b026a72084/object:f0b7f3d271dc43fab3f143022548cd8d",
-        "displayName": "RoomLight",
-        "nodeTypeLabel": "Game Object"
-      },
-      {
-        "nodePath": "project:global/planet:158e43ebd5564d448c6a40df59d7884e/country:b4e73c02bdac414ebfc39e96927a2b5e/area:9d5029a9ecd949d48c8d0815a13abaf6/room:bf9abdbff1594c38a903d5b026a72084/room-objects:bf9abdbff1594c38a903d5b026a72084/object:f0b7f3d271dc43fab3f143022548cd8d/settings:object",
-        "displayName": "Game Object Settings",
-        "nodeTypeLabel": "Game Object Settings"
-      },
-      {
-        "nodePath": "project:global",
-        "displayName": "Global",
-        "nodeTypeLabel": "Global"
       }
     ],
     "hierarchyBookmarks": [
