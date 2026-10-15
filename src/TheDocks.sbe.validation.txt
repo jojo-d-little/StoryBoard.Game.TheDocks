@@ -1,10 +1,10 @@
-Validation report generated: 2026-10-10 17:02:11
+Validation report generated: 2026-10-15 14:29:14
 Project: TheDocks
 ExecutionKind: WholeProject
 RootScopePath: Global
 IncludeDescendants: True
-CandidateNodeCount: 110
-ExecutedRules: 68
+CandidateNodeCount: 115
+ExecutedRules: 72
 SkippedRules: 0
 StoppedEarly: False
 RemainingIssueCountAtStop: 0
@@ -14,7 +14,11 @@ RemainingRuleCountAtStop: 0
 SkippedRuleId	SkipReason	SkipDetail
 
 RuleId	Severity	Path	Description	Hint
-TRV-007	Warning	Global / Earth / England / Birmingham / Room/ElevatorFoyer3rd	room 'ElevatorFoyer3rd' has multiple traversal targets for direction South: BackHallwayNorthEnd, HallwayNorthEnd. A bare direction needs a destination choice.	Use destination-qualified navigation to choose among these exits. Give destinations distinct names so players can identify them.
-TRV-005	Warning	Global / Earth / England / Birmingham / HallwayMiddle / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.
-TRV-005	Warning	Global / Earth / England / Birmingham / HallwayNorthEnd / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.
-TRV-005	Warning	Global / Earth / England / Birmingham / BackHallwayNorthEnd / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.
+TRV-001	Warning	Global / Earth / England / Birmingham / TraversalConnection/34cff4c82221480bb2115d88d31506ae / LegAtoB	traversal leg requires open state, but isPassable is not shared with an object isOpen variable.	
+TRV-001	Warning	Global / Earth / England / Birmingham / TraversalConnection/34cff4c82221480bb2115d88d31506ae / LegBtoA	traversal leg requires open state, but isPassable is not shared with an object isOpen variable.	
+TRV-007	Warning	Global / Earth / England / Birmingham / Room/3rdElevatorFoyer	room '3rdElevatorFoyer' has multiple traversal targets for direction South: 3rdBackHallwayNorth, 3rdHallwayNorth. A bare direction needs a destination choice.	Use destination-qualified navigation to choose among these exits. Give destinations distinct names so players can identify them.
+TRV-005	Warning	Global / Earth / England / Birmingham / 3rdHallwayMid / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.
+TRV-005	Warning	Global / Earth / England / Birmingham / 3rdHallwayNorth / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.
+TRV-005	Warning	Global / Earth / England / Birmingham / 3rdBackHallwayNorth / VicHotel_Base_Door_Longwall	openable door convention: door isOpen is not linked to anything via shared variable.	Link this door's isOpen to a shared variable used by traversal isPassable.
+OBJ-005	Warning	Global / Earth / England / Birmingham / 3rdElevatorFoyer / BuzzBeacon	object 'BuzzBeacon' is included in room preview but has no configured default image path.	Assign a default image variant path or uncheck Include In Preview.
+OBJ-005	Warning	Global / Earth / England / Birmingham / 3rdHotelOutsideSouth / RainEmitter	object 'RainEmitter' is included in room preview but has no configured default image path.	Assign a default image variant path or uncheck Include In Preview.
